@@ -1,0 +1,16 @@
+{
+  "name": "petroapply",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "mobile": "cd apps/mobile && npx expo start",
+    "admin": "cd apps/admin && npm run dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

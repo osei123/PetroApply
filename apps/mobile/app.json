@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "PetroApply",
+    "slug": "petroapply",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "petroapply",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.petroapply.mobile"
+    },
+    "android": {
+      "package": "com.petroapply.mobile"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router", "expo-secure-store"]
+  }
+}
