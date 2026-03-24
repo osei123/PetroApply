@@ -1,3 +1,4 @@
+import React from 'react';
 import DashboardShell from './DashboardShell';
 
 // Prevent Next.js from trying to statically pre-render dashboard pages.
